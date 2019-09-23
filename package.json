@@ -1,0 +1,17 @@
+{
+  "name": "improv_website",
+  "version": "1.0.0",
+  "description": "<!-- 1. HOME PAGE -scrolling gallery (we have a few photos we can send) -testimonials -logos of clients we've worked with (Google, LinkedIn for now; can get others from you, Kat, Caleb, etc)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8",
+    "path": "^0.12.7"
+  }
+}
