@@ -1,7 +1,5 @@
 //API Routes//
 var express = require('express');
-var app = express();
-var path = require('path');
 var nodemailer = require('nodemailer');
 
 module.exports = function (app) {

@@ -13,6 +13,9 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <!-- Latest JavaScript/jQuery CDNs -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -40,7 +43,7 @@
     <div class="container main-container">   
         <div class="row main-section carousel-section justify-content-md-center justify-content-sm-center justify-content-center">
             <div class="col-md-8 col-sm-10 col-10">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-aos="zoom-in">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="carousel-photo" id="carousel-photo-1" alt="First slide"></div>
@@ -55,7 +58,7 @@
                 </div>
             </div>
             <div class="testimonial-div col-md-4 col-sm-10 col-10">
-                <div class="testimonial-card box-shadow">
+                <div class="testimonial-card box-shadow" data-aos="zoom-in">
                     <div class="testimonial">Caitlin and Caleb organized an awesome Improv session for our team (Network Architecture) offsite. After 1.5 days of intense brainstorming and discussions, the team was looking forward to a fun event but some members were initially apprehensive or unsure of Improv and being put on the spot. The event turned out to be super fun and engaging, and the team really gelled around the event. Caitlin and Caleb did an outstanding job in breaking the ice, and not only did they get all team members involved in the Improv activities, they succeeded in getting them enthusiastically participating in the event.</div>
                     <div class="attribution">-Mountain View tech firm</div>
                 </div>
@@ -65,113 +68,105 @@
             <div class="col-md-12 col-sm-12 col-12">   
                 <div class="row justify-content-md-center justify-content-sm-center justify-content-center">
                     <div class="col-md-6 col-sm-12 col-12">
-                        <h4>Clients</h4>
+                        <h4 data-aos="zoom-in-down">Clients</h4>
                     </div>
                 </div>
                 <div class="row justify-content-md-center justify-content-sm-center justify-content-center">
-                    <div class="col-md-2 col-sm-3 col-4">
-                        <img class="client-logo" src="https://www.freepnglogos.com/uploads/google-logo-png-hd-11.png" />
+                    <div class="col-md-2 col-sm-3 col-2">
+                        <img class="client-logo" src="https://www.freepnglogos.com/uploads/google-logo-png-hd-11.png" data-aos="zoom-in-right" data-aos-delay="50" />
                     </div>
-                    <div class="col-md-2 col-sm-3 col-4">
-                        <img class="client-logo" src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-png-25.png" />
+                    <div class="col-md-2 col-sm-3 col-2">
+                        <img class="client-logo" src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-png-25.png" data-aos="zoom-in-right" data-aos-delay="150" />
                     </div>
-                    <div class="col-md-2 col-sm-3 col-4">
-                        <img class="client-logo" src="/assets/bold-woman-brands.png" />
+                    <div class="col-md-2 col-sm-3 col-2">
+                        <img class="client-logo" src="/assets/bold-woman-brands.png" data-aos="zoom-in-right" data-aos-delay="250" />
                     </div>
                 </div>
             </div>
         </div>
         <!-- Meet the company -->
-        <div class="blue-row row justify-content-md-center justify-content-sm-center justify-content-center" id="about-us">
+        <div class="blue-row row about-us justify-content-md-center justify-content-sm-center justify-content-center" id="about-us">
             <div class="col-md-12 col-sm-12 col-12">
-                <h1 class="section-title">About Us</h1>
+                <h1 class="section-title" data-aos="zoom-in">About Us</h1>
             </div>
-        </div>
-        <div class="blue-row row about-us justify-content-md-center justify-content-sm-center justify-content-center">
             <div class="col-md-6 col-sm-5 col-10">
-                <p>the improv company brings the art of improvisation to the workforce. Having worked in corporate cultures for over a decade, we know there is a lot of room for mixing things up. Collaboration, spontaneity, creativity, and support are the skills we build upon through our workshops. Our backgrounds are in advertising, marketing, public relations and technology. And, of course, performance and improvisational theatre. We’ve specialized in pitch coaching, creative thinking and problem solving. Thus, we are the perfect crew to hire for your next corporate offsite, meeting or event. </p>
+                <p data-aos="zoom-in">the improv company brings the art of improvisation to the workforce. Having worked in corporate cultures for over a decade, we know there is a lot of room for mixing things up. Collaboration, spontaneity, creativity, and support are the skills we build upon through our workshops. Our backgrounds are in advertising, marketing, public relations and technology. And, of course, performance and improvisational theatre. We’ve specialized in pitch coaching, creative thinking and problem solving. Thus, we are the perfect crew to hire for your next corporate offsite, meeting or event. </p>
             </div>
         </div>
         <!-- Meet the team -->
-        <div class="row justify-content-md-center justify-content-sm-center justify-content-center" id="meet-the-team">
+        <div class="team-members row justify-content-md-center justify-content-sm-center justify-content-center" id="meet-the-team">
             <div class="col-md-12 col-sm-12 col-12">
-                <h1 class="section-title">The Team</h1>
-            </div>
-        </div>
-        <div class="team-members">
-            <div class="row team-member justify-content-md-center justify-content-sm-center justify-content-center">
-                <div class="col-md-12 col-sm-12 col-12">
-                    <h2>Caitlin Fitzpatrick</h2>
-                </div>
-                <div class="col-md-2 col-sm-5 col-8 team-member-headshot">
-                    <img class="headshot" src="./assets/caleb-headshot.jpg" />
-                </div>
-                <div class="col-md-6 col-sm-5 col-10 team-member-bio">
-                    <p>Cait is a digital nomad and roams the world looking for improv inspiration. Her background is in marketing and public relations, specializing in pitch coaching (ala Don Draper in Mad Men, though Peggy Olson is where its at). She trained at Bay Area Theatre Sports (BATS) and Killing My Lobster in San Francisco, California. You can find her chasing the sunshine and avoiding the winter, whenever possible.</p>
-                </div>
+                <h1 class="section-title" data-aos="zoom-in">The Team</h1>
             </div>
             <div class="row team-member justify-content-md-center justify-content-sm-center justify-content-center">
                 <div class="col-md-12 col-sm-12 col-12">
-                    <h2>Jared Grant</h2>
-                </div>
-                <div class="col-md-6 col-sm-5 col-10 team-member-bio">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam leo neque, faucibus a aliquam elementum, facilisis at risus. Aenean a massa imperdiet, fringilla lectus eget, iaculis justo. Sed in eleifend massa. Proin id sem eu lectus facilisis egestas. Fusce nec tortor sit amet ex consectetur posuere eget et arcu.</p>
+                    <h2 data-aos="zoom-in">Caitlin Fitzpatrick</h2>
                 </div>
                 <div class="col-md-2 col-sm-5 col-8 team-member-headshot">
-                    <img class="headshot" src="./assets/joe-headshot.jpg" />
+                    <img class="headshot" src="./assets/caleb-headshot.jpg" data-aos="zoom-in-right" />
+                </div>
+                <div class="col-md-6 col-sm-5 col-10 team-member-bio">
+                    <p data-aos="zoom-in-left">Cait is a digital nomad and roams the world looking for improv inspiration. Her background is in marketing and public relations, specializing in pitch coaching (ala Don Draper in Mad Men, though Peggy Olson is where its at). She trained at Bay Area Theatre Sports (BATS) and Killing My Lobster in San Francisco, California. You can find her chasing the sunshine and avoiding the winter, whenever possible.</p>
+                </div>
+            </div>
+            <div class="row team-member justify-content-md-center justify-content-sm-center justify-content-center right-aligned-headshot">
+                <div class="col-md-12 col-sm-12 col-12">
+                    <h2 data-aos="zoom-in">Jared Grant</h2>
+                </div>
+                <div class="col-md-6 col-sm-5 col-10 team-member-bio">
+                    <p data-aos="zoom-in-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam leo neque, faucibus a aliquam elementum, facilisis at risus. Aenean a massa imperdiet, fringilla lectus eget, iaculis justo. Sed in eleifend massa. Proin id sem eu lectus facilisis egestas. Fusce nec tortor sit amet ex consectetur posuere eget et arcu.</p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-8 team-member-headshot">
+                    <img class="headshot" src="./assets/joe-headshot.jpg" data-aos="zoom-in-left" />
                 </div>
             </div>
             <div class="row team-member justify-content-md-center justify-content-sm-center justify-content-center">
                 <div class="col-md-12 col-sm-12 col-12">
-                    <h2>Joe Fitzpatrick</h2>
+                    <h2 data-aos="zoom-in">Joe Fitzpatrick</h2>
                 </div>
                 <div class="col-md-2 col-sm-5 col-8 team-member-headshot">
-                    <img class="headshot" src="./assets/joe-headshot.jpg" />
+                    <img class="headshot" src="./assets/joe-headshot.jpg" data-aos="zoom-in-right" />
                 </div>
                 <div class="col-md-6 col-sm-5 col-10 team-member-bio">
-                    <p>Based in Chicago, Joe has been performing as a standup, improviser, and sketch comedian since 2013. He recently wrapped on a year residency as part of a Second City House Ensemble, and he performs and produces shows regularly at Logan Square Improv. If you're not in Chicago, you can see Joe on Youtube with his sketch group <a href="youtube.com/familyfriends">Family Friends</a>. He is currently looking for the closest pizza place that serves slices.</p>
+                    <p data-aos="zoom-in-left">Based in Chicago, Joe has been performing as a standup, improviser, and sketch comedian since 2013. He recently wrapped on a year residency as part of a Second City House Ensemble, and he performs and produces shows regularly at Logan Square Improv. If you're not in Chicago, you can see Joe on Youtube with his sketch group <a href="youtube.com/familyfriends">Family Friends</a>. He is currently looking for the closest pizza place that serves slices.</p>
                 </div>
             </div>
         </div>
         <!-- Hire us -->
-        <div class="row blue-row-alt" id="hire-us">
+        <div class="row services blue-row-alt justify-content-md-center justify-content-sm-center justify-content-center" id="hire-us">
             <div class="col-md-12 col-sm-12 col-12">
-                <h1 class="section-title">Hire us</h1>
+                <h1 class="section-title" data-aos="zoom-in">Hire us</h1>
             </div>
-        </div>
-        <div class="row services blue-row-alt justify-content-md-center justify-content-sm-center justify-content-center">
             <div class="col-md-7 col-sm-5 col-10">
-                <p>We focus on corporate events and customize every session based on your needs. Everything we do is through the lens of “how can we bring these skills back to our everyday work to improve productivity, energy levels and engagement?” Our sessions tend to include:</p>
+                <p data-aos="zoom-in">We focus on corporate events and customize every session based on your needs. Everything we do is through the lens of “how can we bring these skills back to our everyday work to improve productivity, energy levels and engagement?” Our sessions tend to include:</p>
                 <ul>
-                    <li>Practicing the basics of improvisation, such as “yes, and” and “bring a brick, not a building”</li>
-                    <li>Building on one another and exploring characters</li>
-                    <li>Spontaneously creating short scenes</li>
-                    <li>Creating environments of trust and team building</li>
+                    <li data-aos="zoom-in-right">Practicing the basics of improvisation, such as “yes, and” and “bring a brick, not a building”</li>
+                    <li data-aos="zoom-in-right">Building on one another and exploring characters</li>
+                    <li data-aos="zoom-in-right"> Spontaneously creating short scenes</li>
+                    <li data-aos="zoom-in-right">Creating environments of trust and team building</li>
                 </ul>
             </div>
         </div>
         <!-- Contact us -->
         <div class="row justify-content-md-center justify-content-sm-center justify-content-center" id="contact">
-            <div class="col-md-6 col-sm-12 col-12">
-                <h1 class="section-title">Questions?</h1>
+            <div class="col-md-12 col-sm-12 col-12">
+                <h1 class="section-title" data-aos="zoom-in">Questions?</h1>
             </div>
-        </div>
-        <div class="row justify-content-md-center justify-content-sm-center justify-content-center">
             <div class="col-md-6 col-sm-12 col-12">
                     <form class="contact-form">
                         <div class="form-group">
-                            <label for="name-input">Name</label>
-                            <input type="text" class="form-control" id="name-input" placeholder="Name">
+                            <!-- <label for="name-input">Name</label> -->
+                            <input type="text" class="form-control" id="name-input" placeholder="Name" data-aos="zoom-in-right">
                         </div>
                         <div class="form-group">
-                            <label for="email-input">Email</label>
-                            <input type="email" class="form-control" id="email-input" placeholder="Email">
+                            <!-- <label for="email-input">Email</label> -->
+                            <input type="email" class="form-control" id="email-input" placeholder="Email" data-aos="zoom-in-right">
                         </div>
                         <div class="form-group">
-                            <label for="message-input">Message</label>
-                            <textarea rows="10" class="form-control" id="message-input" placeholder="Your message here..."></textarea>
+                            <!-- <label for="message-input">Message</label> -->
+                            <textarea rows="10" class="form-control" id="message-input" placeholder="Your message here..." data-aos="zoom-in-right"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary" id="contact-form-submit">Submit</button>
+                        <button type="submit" class="btn btn-primary" id="contact-form-submit" data-aos="zoom-in-right">Submit</button>
                     </form>
             </div>
         </div>
@@ -182,6 +177,12 @@
     <div class="container-fluid footer-container">
         <footer>&copy; 2019 the improv company</footer>
     </div>
+
+    <!-- AOS library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- App.js -->
     <script src="app.js"></script>

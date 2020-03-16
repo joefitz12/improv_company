@@ -23,6 +23,7 @@ h4 {
     top: 0;
     z-index: 10;
     box-shadow: 0px 0px 10px #E6E6E6;
+    position: fixed;
 }
 
 .nav {
@@ -102,6 +103,7 @@ h4 {
 .main-container {
     padding: 0;
     /* width: 80%; */
+    margin-top: 62px;
 }
 
 .row {
@@ -193,6 +195,7 @@ footer {
     width: 100%;
     background: #3F88C5;
     text-align: center;
+    padding: 25px;
 }
 
 .services-title,
@@ -285,5 +288,8 @@ footer {
     }
     .testimonial-card {
         box-shadow: none;
+    }
+    .right-aligned-headshot .team-member-bio {
+        order: 3;
     }
 }
