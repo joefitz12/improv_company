@@ -1,17 +1,8 @@
-<!-- 1. HOME PAGE
--scrolling gallery (we have a few photos we can send)
--testimonials
--logos of clients we've worked with (Google, LinkedIn for now; can get others from you, Kat, Caleb, etc)
+# Improv Company
+This is the base code for a website for Improv Company. There are placeholders for many of the images and text.
 
-2. ABOUT US / OUR STORY
-
-3. MEET THE TEAM (me, you, Jared, Kat, Caleb Lush)
-https://www.katatwell.com/
-
-4. HIRE US
--corporate
--kid's events
--recovery (Jared, what else would you call this?)
-
-5. CONTACT US
-- form page -->
+## Installation
+1. Clone down the repo.
+2. Open the directory in the terminal.
+3. Run `node server`.
+4. Open `http://localhost:8080/` in the browser.
